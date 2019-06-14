@@ -38,6 +38,12 @@ function reset(){
     $("#laps").text("");
 }
 
+function recordLap(){
+
+    var converted=timeConverter(time);
+    $("#laps").append("<p>lap"+countLap +":"+ converted+"</p>");
+    countLap++;
+}
     
 function timeConverter(t) {
 
