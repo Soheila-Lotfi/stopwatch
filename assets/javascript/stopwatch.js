@@ -20,13 +20,13 @@ function  start(){
 function count(){
 
     time++;
-    var converted=timeConverter(time);
+    var converted=timeConverter(time);  //Get the current time, pass that into the timeConverter function
     $("#display").text(converted);
 
 }
 
 function stop(){
-    clearInterval(intervalId);
+    clearInterval(intervalId);     //Use clearInterval to stop the count here
     isClockRunning= false;
 }
 
@@ -34,7 +34,7 @@ function reset(){
 
     time=0;
     countLap=1;
-    $("#display").text("00:00");
+    $("#display").text("00:00");  // Change the "display" div to "00:00."
     $("#laps").text("");
 }
 
