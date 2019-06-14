@@ -1,0 +1,21 @@
+
+#display{
+    text-align:center;
+    color: beige;
+    background-color: #2aa570;
+    font-size: 40px;
+    width:40%;
+    padding: 10px;
+    margin-left:30%;
+    margin-top:100px;
+    height: 20%;
+}
+#buttons{
+    font-size: 40px;
+    margin-left: 39%;
+    margin-top: 8%;
+    
+}
+#laps{
+    margin-left:40%;
+}
