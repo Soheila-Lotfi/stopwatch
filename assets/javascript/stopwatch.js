@@ -25,6 +25,10 @@ function count(){
 
 }
 
+function stop(){
+    clearInterval(intervalId);
+    isClockRunning= false;
+}
     
 function timeConverter(t) {
 
