@@ -29,6 +29,15 @@ function stop(){
     clearInterval(intervalId);
     isClockRunning= false;
 }
+
+function reset(){
+
+    time=0;
+    countLap=1;
+    $("#display").text("00:00");
+    $("#laps").text("");
+}
+
     
 function timeConverter(t) {
 
